@@ -24,8 +24,8 @@ samples, guidance on mobile development, and a full API reference.
 
 아래 사진과 같이, 코드에 수업 내용을 꼼꼼하게 주석으로 필기하여, 복습시 코드를 보면서 재차 확인 하였습니다.
 <div>
-  <img src="https://github.com/Chochanguk/Lecture_Flutter/assets/119058637/615514ad-a661-43e8-9952-4cc5b08a8a2b" width=30% height=30%/>
-  <img src="https://github.com/Chochanguk/Lecture_Flutter/assets/119058637/97b63a08-86a9-497e-8074-c1fd50d29cad" width=30% height=30%/>
+  <img src="https://github.com/Chochanguk/Lecture_Flutter/assets/119058637/615514ad-a661-43e8-9952-4cc5b08a8a2b" width=70% height=70%/>
+  <img src="https://github.com/Chochanguk/Lecture_Flutter/assets/119058637/97b63a08-86a9-497e-8074-c1fd50d29cad" width=70% height=70%/>
 </div>
 
 
