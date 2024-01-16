@@ -18,7 +18,7 @@ samples, guidance on mobile development, and a full API reference.
 ## 학습법
 아래 사진과 같이, 각 강의별 branch를 다르게 두고, commit에 배운 내용들을 요약하였습니다.
 <div>
-<img src="https://github.com/Chochanguk/Lecture_Flutter/assets/119058637/24484334-e5bc-4b53-b206-4b57780a2108" width=30% height=60%/>
+<img src="https://github.com/Chochanguk/Lecture_Flutter/assets/119058637/24484334-e5bc-4b53-b206-4b57780a2108"/>
 </div>
   <br>
 
