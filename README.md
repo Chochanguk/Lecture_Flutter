@@ -17,7 +17,7 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 ## 3강 Flutter UI
-![flutter_UI](https://github.com/Chochanguk/Lecture_Flutter/assets/119058637/b5594b7a-ec92-4b76-bf82-8a50e55e9c9f)
+<src="https://github.com/Chochanguk/Lecture_Flutter/assets/119058637/b5594b7a-ec92-4b76-bf82-8a50e55e9c9f" width=40% height=30%/>
 
 
 
