@@ -8,3 +8,10 @@
 ![image](https://github.com/Chochanguk/Lecture_Flutter/assets/119058637/74b68f17-25bf-472c-b2ee-b3c2e3dd354b)
 ## 시간 foramating+멈춤 버튼
   <img src="https://github.com/Chochanguk/Lecture_Flutter/assets/119058637/519b38c3-d271-4aa2-8b81-3a7c5e3477da" width=30% height=30%/>
+
+## reset버튼 추가
+  <img src="https://github.com/Chochanguk/Lecture_Flutter/assets/119058637/4056c9a0-0a47-46f7-a4a4-7773590c3947" width=30% height=30%/>
+
+## 상단바에 Drawer 추가
+
+  <img src="https://github.com/Chochanguk/Lecture_Flutter/assets/119058637/a0b18dd0-d1bf-4009-abb5-62dfa0f67c49" width=30% height=30%/>
