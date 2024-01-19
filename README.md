@@ -6,3 +6,5 @@
 
 ## 시간 formating 하는 법 순서 출력 
 ![image](https://github.com/Chochanguk/Lecture_Flutter/assets/119058637/74b68f17-25bf-472c-b2ee-b3c2e3dd354b)
+## 시간 foramating+멈춤 버튼
+  <img src="https://github.com/Chochanguk/Lecture_Flutter/assets/119058637/519b38c3-d271-4aa2-8b81-3a7c5e3477da" width=30% height=30%/>
