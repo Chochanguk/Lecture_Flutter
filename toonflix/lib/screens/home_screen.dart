@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -8,6 +9,27 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  int totalSeconds = 1500; //25분
+  //late 지시어: late로 지정하면 나중에 사용하겠다는 의미. 반드시 사용해야함.
+  late Timer timer;
+  //위의 타이머 변수를 받아서 사용
+  void onlTick(Timer timer) {
+    //★★★★setState를 통해 데이터 변화(state변화) 반영★★★★
+    setState(() {
+      totalSeconds -= 1;
+    });
+  }
+
+  //아이콘 버튼 클릭하면
+  void onStartPressed() {
+    //
+    Timer.periodic(
+      //★★★Duration(시간 단위: 시각)★★★
+      const Duration(seconds: 1), //1초마다 실행하겠다.
+      onlTick, //"onlTick()"이라 안하고 ()이라고만 한다.
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
               //★★★위치를 한 flexible안의 한 container의 바닥 가운데로 "(위치)할당"★★★
               alignment: Alignment.bottomCenter,
               child: Text(
-                '25:00',
+                '$totalSeconds',
                 style: TextStyle(
                   color: Theme.of(context).cardColor,
                   fontSize: 89,
@@ -44,7 +66,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Center(
               //아이콘 버튼에 할당할 메소드+ 속성들 명시
               child: IconButton(
-                onPressed: () {},
+                onPressed: onStartPressed, //아이콘 클릭시 해당 메소드 실행
                 icon: const Icon(Icons.play_circle_outline),
                 iconSize: 120,
                 color: Theme.of(context).cardColor, //흰색
@@ -59,9 +81,14 @@ class _HomeScreenState extends State<HomeScreen> {
                 Expanded(
                   child: Container(
                     decoration: BoxDecoration(
-                      //★★★★null이면 기본값 제공 함 따라서 "!" 불필요 .Theme.of(context)
-                      color: Theme.of(context).cardColor,
-                    ),
+                        //★★★★null이면 기본값 제공 함 따라서 "!" 불필요 .Theme.of(context)
+                        color: Theme.of(context).cardColor,
+                        //container를 각이 안지게 하는법 boxdeco의 borderradius사용
+                        //★★BorderRadius.only★★사용-> (왼쪽or 오른쪽)+ 위, 설정가능
+                        borderRadius: const BorderRadius.only(
+                          topLeft: Radius.circular(50),
+                          topRight: Radius.circular(50),
+                        )),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
