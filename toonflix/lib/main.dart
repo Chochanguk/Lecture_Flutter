@@ -10,6 +10,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false, //위의 debug리본 없애기
       theme: ThemeData(
         textTheme: const TextTheme(
           displayLarge: TextStyle(
